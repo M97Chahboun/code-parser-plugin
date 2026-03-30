@@ -18,13 +18,30 @@ Or from GitHub:
 
 ## Requires
 
-`code-parser` binary on `$PATH`. Build it from source:
+### Install with Cargo
 
 ```bash
-git clone https://github.com/M97chahboun/code-parser
+cargo install code-parser
+```
+
+### Install with curl
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/m97chahboun/code-parser/master/install.sh | bash
+```
+
+### Build from source
+
+**Requirements:**
+
+- Rust 1.75+ (1.77+ recommended)
+- Cargo (bundled with Rust via rustup)
+
+```bash
+git clone https://github.com/m97chahboun/code-parser
 cd code-parser
 cargo build --release
-cp target/release/code-parser ~/.local/bin/
+# binary at: ./target/release/code-parser
 ```
 
 ## Commands
