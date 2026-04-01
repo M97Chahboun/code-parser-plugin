@@ -7,7 +7,11 @@ code-parser extracts every class, interface, mixin, enum, and method — with ex
 ## Installation
 
 ```bash
-/plugin install code-parser
+git pull https://github.com/M97Chahboun/code-parser-plugin.git
+```
+then 
+```bash
+claude --plugin-dir ./code-parser-plugin/
 ```
 
 ## Requires
